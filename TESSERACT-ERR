@@ -1,0 +1,23 @@
+TESSERACT ERR:
+
+--- Start recognize text from image ---
+
+Traceback (most recent call last):
+  File "D:\PYTHONS\IMG2TXT\IM2TXT.py", line 40, in <module>
+    print get_string(src_path + "T1.png")
+  File "D:\PYTHONS\IMG2TXT\IM2TXT.py", line 31, in get_string
+    result = pytesseract.image_to_string(Image.open(src_path + "thres.png"))
+  File "C:\Python27\lib\site-packages\pytesseract\pytesseract.py", line 294, in image_to_string
+    return run_and_get_output(*args)
+  File "C:\Python27\lib\site-packages\pytesseract\pytesseract.py", line 202, in run_and_get_output
+    run_tesseract(**kwargs)
+  File "C:\Python27\lib\site-packages\pytesseract\pytesseract.py", line 172, in run_tesseract
+    raise TesseractNotFoundError()
+TesseractNotFoundError: tesseract is not installed or it's not in your path
+>>> 
+
+VERSION :
+
+Python 2.7.14 (v2.7.14:84471935ed, Sep 16 2017, 20:19:30) [MSC v.1500 32 bit (In
+tel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
