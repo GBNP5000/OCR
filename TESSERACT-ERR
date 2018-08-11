@@ -34,3 +34,6 @@ Collecting Pillow (from pytesseract)
 Installing collected packages: Pillow, pytesseract
   Running setup.py install for pytesseract ... done
 Successfully installed Pillow-5.2.0 pytesseract-0.2.4
+
+OS :
+         WINDOWS 7 (64 bits)
